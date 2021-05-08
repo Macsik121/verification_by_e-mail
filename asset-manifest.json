@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/verification_by_e-mail/static/css/main.dcaf770b.chunk.css",
+    "main.css": "/verification_by_e-mail/static/css/main.503d5523.chunk.css",
     "main.js": "/verification_by_e-mail/static/js/main.b89ca60e.chunk.js",
     "main.js.map": "/verification_by_e-mail/static/js/main.b89ca60e.chunk.js.map",
     "runtime-main.js": "/verification_by_e-mail/static/js/runtime-main.64a6eb48.js",
@@ -10,14 +10,14 @@
     "static/js/3.3d604d93.chunk.js": "/verification_by_e-mail/static/js/3.3d604d93.chunk.js",
     "static/js/3.3d604d93.chunk.js.map": "/verification_by_e-mail/static/js/3.3d604d93.chunk.js.map",
     "index.html": "/verification_by_e-mail/index.html",
-    "static/css/main.dcaf770b.chunk.css.map": "/verification_by_e-mail/static/css/main.dcaf770b.chunk.css.map",
+    "static/css/main.503d5523.chunk.css.map": "/verification_by_e-mail/static/css/main.503d5523.chunk.css.map",
     "static/js/2.9213060d.chunk.js.LICENSE.txt": "/verification_by_e-mail/static/js/2.9213060d.chunk.js.LICENSE.txt",
     "static/media/morgenal.95f1cb6e.jpg": "/verification_by_e-mail/static/media/morgenal.95f1cb6e.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.64a6eb48.js",
     "static/js/2.9213060d.chunk.js",
-    "static/css/main.dcaf770b.chunk.css",
+    "static/css/main.503d5523.chunk.css",
     "static/js/main.b89ca60e.chunk.js"
   ]
 }
