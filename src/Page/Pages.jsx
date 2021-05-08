@@ -48,7 +48,7 @@ class Registration extends React.Component {
                         <input name="email" id="email" type="email" className="validate" required/>
                         <label htmlFor="email">Email</label>
                     </div>
-                    <button className="waves-effect waves-light btn" id="submit" type="submit">
+                    <button className="waves-effect waves-light btn submit-btn" id="submit" type="submit">
                         Confirm verification code
                     </button>
                 </form>
