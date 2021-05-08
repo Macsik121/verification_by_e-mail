@@ -1,0 +1,21 @@
+.registration {
+    display: flex;
+}
+
+.form_registration {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form_registration .email {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    user-select: none;
+}
+
+.notFound {
+    text-align: center;
+}
