@@ -150,6 +150,7 @@
     }
     .chat {
         flex-direction: column;
+        font-size: 3vw;
     }
     .chat .chats {
         width: 100%;
