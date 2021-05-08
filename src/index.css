@@ -4,28 +4,6 @@
     box-sizing: border-box;
 }
 
-.App {
-    display: flex;
-}
-
-.shortcuts {
-    display: flex;
-    flex-direction: column;
-    width: 25%;
-}
-
-.shortcuts h2 {
-    font-size: 4vw;
-}
-
-.shortcuts span {
-    display: block;
-}
-
-.shortcuts span + span {
-    margin-top: 5vh;
-}
-
 .form_registration {
     width: 50%;
 }

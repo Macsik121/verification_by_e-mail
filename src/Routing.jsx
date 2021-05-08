@@ -3,7 +3,8 @@ import React from 'react';
 import {
     Registration,
     Verification,
-    Finished
+    Finished,
+    Chat
 } from './Page/Pages';
 
 class NotFoundPage extends React.Component {
@@ -30,16 +31,19 @@ class Routing extends React.Component {
         return (
             <Switch>
                 <Route exact path="/registration" component={Registration} />
-                {
+                <Route exact path="/registration/finished" component={Finished} />
+                <Route exact path="/registration/verif" component={Verification} />
+                <Route exact path="/chat" component={Chat} />
+                {/* {
                     this.state.isEmailWrote
                     &&
-                    <Route exact path="/registration/verif" component={Verification} />
+                    <Route exact path="/registration/finished" component={Finished} />
                 }
                 {
                     this.state.isVerified
                     &&
-                    <Route exact path="/registration/finished" component={Finished} />
-                }
+                    <Route exact path="/registration/verif" component={Verification} />
+                } */}
                 <Redirect exact from="/registration/finished" to="registration" />
                 <Redirect exact from="/" to="registration" />
                 <Route component={NotFoundPage} />

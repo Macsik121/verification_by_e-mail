@@ -16,6 +16,85 @@
     user-select: none;
 }
 
+.verifCode {
+    display: flex;
+}
+
+.shortcuts {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.shortcuts h2 {
+    font-size: 4vw;
+}
+
+.shortcuts span {
+    display: block;
+}
+
+.shortcuts span + span {
+    margin-top: 5vh;
+}
+
+.finishing {
+    font-size: 1.5vw;
+}
+
+.finishing h2 {
+    font-size: 4vw;
+}
+
+.finishing label {
+    display: block;
+    font-size: 1.5vw;
+}
+
+.finishing .chat-link {
+    color: #2bbbad;
+}
+
+.chat {
+    display: flex;
+}
+
+.chat .chats {
+    width: 40%;
+}
+
+.chat .chats .person-card {
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(187, 187, 187);
+}
+
+.chat .chats .person-card + .person-card {
+    border-top: none;
+}
+
+.chat .chats .person-card .info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1vw;
+}
+
+.chat .chats .person-card .img {
+    border-radius: 50%;
+    width: 15%;
+}
+
+.chat .chating {
+    width: 60%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.chat .chating input {
+    margin: 0;
+    padding-left: 15px;
+}
+
 .notFound {
     text-align: center;
 }
