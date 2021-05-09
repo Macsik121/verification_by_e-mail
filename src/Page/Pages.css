@@ -139,8 +139,15 @@
         width: 100%;
         font-size: 4vw;
     }
-    .registration .form_registration .submit-btn {
+    .registration .form_registration .btn, .btn-large,
+    .registration .form_registration .btn-small,
+    .registration .form_registration .btn-flat {
         font-size: 5vw;
+        padding-top: 7vh;
+        padding-bottom: 7vh;
+        display :flex;
+        align-items: center;
+        justify-content: center;
     }
     .finishing {
         font-size: 6vw;
@@ -161,5 +168,11 @@
     }
     .chat .chating input {
         font-size: 3vw;
+    }
+}
+
+@media (max-width: 475px) {
+    .registration .form_registration, .verifCode .form_registration {
+        font-size: 5vw;
     }
 }
